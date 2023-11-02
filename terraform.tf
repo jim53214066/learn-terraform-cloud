@@ -1,13 +1,14 @@
 terraform {
-
+/*
   cloud {
-    organization = "organization-name"
+    organization = "seeease"
 
     workspaces {
       name = "learn-terraform-cloud"
     }
   }
-
+*/
+  
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -16,4 +17,6 @@ terraform {
   }
 
   required_version = ">= 0.14.0"
+}
+
 }
